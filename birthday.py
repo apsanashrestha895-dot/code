@@ -5,8 +5,13 @@ today = datetime.now()
 this_year_b = birthday.replace(year = today.year)
 
 if this_year_b < today:
-    next_year_b = this_year_b.repalce(year= today.year + 1)
+    next_year_b = this_year_b.replace(year= today.year + 1)
+    print(next_year_b)
 else:
     next_year_b = this_year_b
+    print(next_year_b)
 if this_year_b == today:
-    print("happy birthday")    
+    print("happy birthday")   
+else:     
+    days_left = next_year_b - today
+    print(days_left)
