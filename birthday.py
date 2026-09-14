@@ -1,6 +1,6 @@
 from datetime import datetime
-birthday_input = input("enter your birthady date(dd:mm:yyyy):")
-birthday = datetime.strptime(birthday_input, "%d - %m -%y")
+birthday_input = input("enter your birthady date(dd-mm-yyyy):")
+birthday = datetime.strptime(birthday_input, "%d-%m-%Y")
 today = datetime.now()
 this_year_b = birthday.replace(year = today.year)
 
