@@ -1,4 +1,5 @@
 from datetime import datetime
+
 birthday_input = input("enter your birthady date(dd-mm-yyyy):")
 birthday = datetime.strptime(birthday_input, "%d-%m-%Y")
 today = datetime.now()

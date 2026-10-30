@@ -6,6 +6,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 500))
 
 # Buttons
+#no= x,y,width and length
 rock_button = pygame.Rect(100, 200, 125, 80)
 paper_button = pygame.Rect(250, 200, 150, 80)
 scissor_button = pygame.Rect(450, 200, 180, 80)

@@ -40,7 +40,11 @@ def save_password(pwd):
         f.write(encode(pwd))   
         print("passwword saved successfully") 
 
-def check_password():
-    if 
+def check_password(stored, check):
+   check =input("enter the password")
+   if stored == pwd:
+    print("correct password")
+   else:
+    print("incorrect password") 
 
 
